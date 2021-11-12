@@ -8,6 +8,7 @@ geom = """
 NUMBER_OF_ATOMS
 TITLE
 SYMBOL  COORDINATES  VELOCITIES
+print('hello world')
 """
 
 mol = Molecule(geometry=geom, nstates=NSTATES)
